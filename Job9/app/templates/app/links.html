@@ -1,0 +1,14 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load staticfiles %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<a href="https://vk.com/club12904995"><img src="{% static 'app/content/300m.jpg' %}" alt="vk.com/club12904995" height="100" /></a>
+<a href="http://www.chrysler-dodge.ru/"><img src="{% static 'app/content/Club.jpg' %}" alt="chrysler-dodge.ru" height="100" /></a>
+<a href="http://www.ravtoby.ru/"><img src="{% static 'app/content/RAVTO.jpg' %}" alt="www.ravtoby.ru" height="100" /></a>
+
+{% endblock %}
